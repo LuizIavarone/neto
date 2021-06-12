@@ -1,0 +1,36 @@
+ion-content {
+    --background: url('../../assets/img/loginBackground.png') no-repeat center fixed;
+}
+
+#all-login-infos{
+    margin-top: 15%;
+}
+
+#logo-img{
+    margin-right: 10%;
+}
+
+.input-infos{
+    background-color:azure;
+}
+
+#action-buttons{
+    display: inline;
+}
+
+ul#action-buttons {
+    list-style-type: none;
+}
+
+#user-infos{
+    padding-left: 10%;
+    padding-right: 15%;
+}
+
+#login-button{
+    align-items: center !important;
+}
+
+#register-button{
+    align-items: center !important;
+}

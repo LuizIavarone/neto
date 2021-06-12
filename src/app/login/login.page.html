@@ -1,0 +1,24 @@
+<ion-content>
+  <div id="all-login-infos">
+      <p id="logo-img"><img src="..\assets\img\logo.png"></p>
+      <div id="user-infos">
+          <div id="users-inputs">
+              <ion-item>
+                  <ion-input type="email" placeholder="Email" class="input-infos" [(ngModel)]="email"></ion-input>
+              </ion-item>
+              <ion-item>
+                  <ion-input type="password" placeholder="Senha" class="input-infos" [(ngModel)]="senha"></ion-input>
+              </ion-item>
+          </div>
+
+          <ul id="action-buttons">
+              <li>
+              <ion-button size="block" expand="fill" color="medium" (click)="validador_login(email,senha)" id="login-button">Login</ion-button>
+              </li>
+              <li>
+              <ion-button size="block" expand="fill" color="medium" routerLink="/register" id="register-button">Registrar-se</ion-button>
+              </li>
+          </ul>
+      </div>
+  </div>
+</ion-content>
